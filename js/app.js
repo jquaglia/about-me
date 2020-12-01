@@ -3,7 +3,7 @@
 var userName = prompt('What is your name?');
 // console.log('The user name is ' + userName + '!');
 
-alert('Hello ' + userName + '!');
+alert('Hello ' + userName + '! Get ready to play a guessing game!');
 
 var codeName = prompt('Is the maker of this website\'s name Jason?').toLowerCase();
 // console.log(codeName);
@@ -14,25 +14,33 @@ if(codeName === 'yes' || codeName === 'y'){
 
 // question two
 // DONE - ask question y/n -normalize case
-var homeTown = prompt('Do I live in Seattle?').toLowerCase();
-
+var homeTown = prompt('Does Jason live in Seattle?').toLowerCase();
 // console.log(homeTown);
 
 if(homeTown === 'yes' || homeTown === 'y'){
   // DONE - console.log the answer IF IT IS CORRECT in a string concatenation
   // DONE - if it works, comment out console.log, send alert to user
   // console.log('Yes I live in Seattle.' + userName + ' answered ' + homeTown);
-  alert('That\'s Correct!');
+  alert('That is Correct!');
 } else{
-  alert('You\'re wrong!');
+  alert('Ooh, you got that one wrong!');
 }
 
-// question two
-// TODO - ask question with yes or no answer, normalize case
-// TODO - console.log the answer in a string concatenation IF IT IS CORRECT
-// TODO - if it works, comment out console.log, send alert to user
+// question three
+// DONE - ask question with yes or no answer, normalize case
+var winterSport = prompt('Does Jason love to ski?').toLowerCase();
+// console.log(winterSport);
 
-// TODO - change alert: thank user, give meaning message with their name
+if(winterSport === 'no' || winterSport === 'y'){
+  // console.log('Jason likes to snowboard.' + userName + ' answered ' + winterSport);
+  alert('Nice job, ' + userName + '. That\'s right! Jason likes to snowboard!');
+} else{
+  alert('Sorry, nice try ' + userName + '.');
+}
+// DONE - console.log the answer in a string concatenation IF IT IS CORRECT
+// DONE - if it works, comment out console.log, send alert to user
+
+// DONE - change alert: thank user, give meaning message with their name
 
 
 
