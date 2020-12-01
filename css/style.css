@@ -1,0 +1,22 @@
+body {
+  background-color: maroon;
+}
+
+h1 {
+  font-size: 32pt;
+  color: #035555;
+  background-color: bisque;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.first-paragraph {
+  background-color: bisque; color: maroon;
+}
+
+.second-paragraph {
+  background-color: bisque; color: #035555;
+}
