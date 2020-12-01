@@ -2,13 +2,14 @@
 
 var userName = prompt('What is your name?');
 // console.log('The user name is ' + userName + '!');
-
 alert('Hello ' + userName + '! Get ready to play a guessing game!');
 
+// question one
 var codeName = prompt('Is the maker of this website\'s name Jason?').toLowerCase();
 // console.log(codeName);
 
 if(codeName === 'yes' || codeName === 'y'){
+  // console.log('The correct answer is yes. ' + userName + ' answered ' + codeName + '.')
   alert('Ding! Ding! Ding! We have a winner!');
 }
 
@@ -31,7 +32,7 @@ if(homeTown === 'yes' || homeTown === 'y'){
 var winterSport = prompt('Does Jason love to ski?').toLowerCase();
 // console.log(winterSport);
 
-if(winterSport === 'no' || winterSport === 'y'){
+if(winterSport === 'no' || winterSport === 'n'){
   // console.log('Jason likes to snowboard.' + userName + ' answered ' + winterSport);
   alert('Nice job, ' + userName + '. That\'s right! Jason likes to snowboard!');
 } else{
@@ -42,7 +43,16 @@ if(winterSport === 'no' || winterSport === 'y'){
 
 // DONE - change alert: thank user, give meaning message with their name
 
+// question four
+var favFood = prompt('Is Jason\'s favorite food tacos?').toLowerCase();
+// console.log(favFood);
 
+if(favFood === 'no' || favFood === 'n'){
+  // console.log('You are really good at this ' + userName + '! Jason\'s favorite food is all food!');
+  alert('You are really good at this ' + userName + '! Jason\'s favorite food is all food!');
+} else{
+  alert('Close! Tacos are one his favorite foods!');
+}
 
 
 
