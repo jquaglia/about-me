@@ -54,6 +54,17 @@ if(favFood === 'no' || favFood === 'n'){
   alert('Close! Tacos are one his favorite foods!');
 }
 
+// question five
+var videoGame = prompt('Does Jason play video games?').toLowerCase();
+//console.log(videoGame);
+
+if(videoGame === 'yes' || videoGame === 'y'){
+  // console.log('Right you are ' + userName + '. You\'ve done well at this game!');
+  alert('Right you are ' + userName + '. You\'ve done well at this game!');
+} else{
+  alert('Wow, ' + userName + '. You need to learn more about Jason!');
+}
+
 
 
 
