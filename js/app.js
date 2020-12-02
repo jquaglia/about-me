@@ -64,3 +64,18 @@ if(videoGame === 'yes' || videoGame === 'y'){
 } else{
   alert('Wow, ' + userName + '. You need to learn more about Jason!');
 }
+
+// question six
+// get user input/ prompt/ assign to variable
+// if statements.
+// if variable > correctAnswer - do one thing.
+// if variable < correctAnswer - do a different thing.
+// if correct (on first try) - do a thing
+// if correct (on last try) - do separate thing?
+// if incorrect answer do loop until greater than 4 (out of guesses)
+// if correct end logic
+
+// question seven
+// add an array with multiple correct answers
+// var answers = ['blue', 'pink', 'red'];
+
