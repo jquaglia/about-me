@@ -2,7 +2,7 @@
 
 ## About Me
 
-I built an app with a direct and powerful purpose. My app does all of the things that it accomplishes well. Here  I describe the purpose and functionality so those that visit my README understand the app.
+I built a website with a guessing game built in. My guessing game asks you questions about myself so you can learn more about me. The guessing game asks you yes or no questions and has responses for both answers. I tried to personalize it as much as possible so it would seem interactive. I have also added bio/background to who I am and what I am doing here on the actual site. Please take the time to learn more about who I am and visit my site!
 
 ### Author: Jason Quaglia/Code 201d70
 
@@ -10,7 +10,7 @@ I built an app with a direct and powerful purpose. My app does all of the things
 
 * [Relevant toLowerCase info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 
-* Any Links you used as reference
+* [How to make a wrapper](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper)
 
 ### Reflections and Comments
 
@@ -20,4 +20,8 @@ I built an app with a direct and powerful purpose. My app does all of the things
 
 ### Collaborators
 
-* the people at your table
+* Anthony Hayward
+
+* Carly Dekock
+
+* Glenn Clark
