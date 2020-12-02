@@ -10,7 +10,11 @@ I built a website with a guessing game built in. My guessing game asks you quest
 
 * [Relevant toLowerCase info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 
-* [How to make a wrapper](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper)
+* [Relevant info on wrapper](https://stackoverflow.com/questions/5275410/what-is-the-correct-way-to-do-a-css-wrapper)
+
+* [Relevant info on footer at bottom](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+
+* [Relevant info on background image](https://www.codesdope.com/blog/article/fixed-background-scrolling-effect-using-css/)
 
 ### Reflections and Comments
 
