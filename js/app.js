@@ -64,22 +64,3 @@ if(videoGame === 'yes' || videoGame === 'y'){
 } else{
   alert('Wow, ' + userName + '. You need to learn more about Jason!');
 }
-
-
-
-
-
-// var iceCream = prompt('What is your favorite flavour of ice cream?');
-// console.log(userName + ' likes ' + iceCream + ' ice cream!');
-
-// alert('Hello ' + userName + ', who loves ' + iceCream + ' ice cream!');
-
-// var topping = prompt('What is your favorite topping?');
-// console.log(userName + ' likes ' + iceCream + ' ice cream with ' + topping + '!');
-
-// alert('Hello ' + userName + ', who loves ' + iceCream + ' ice cream with ' + topping + '!');
-
-// var visit = prompt('Where have you always wanted to travel to?');
-// console.log(userName + ' likes ' + iceCream + ' ice cream with ' + topping + ' when in ' + visit + '!');
-
-// alert('Hello ' + userName + ', who has always wanted to eat ' + iceCream + ' ice cream with ' + topping + ' in an ice cream shop in ' + visit + '!');
