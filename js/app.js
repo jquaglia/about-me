@@ -100,3 +100,21 @@ for (var i = 0; i < numberGuesses; i++){
 
 
 
+// var answers = ['purple', 'yellow', 'green', 'pink'];
+// var guessesNumber = 6;
+
+// for (var j = 0; j < guessesNumber; j++) {
+//   var color = prompt('What is one of my favorite colors? You get six guesses.').toLowerCase;
+//   console.log(color);
+//   if(color === answers[j]){
+//     alert(`Congratulations ${userName}! You guessed right!`);
+//   }
+// }
+
+// while (i < 6){
+//   i = 0;
+//   console.log(i);
+//   var color = prompt('What are my favorite colors? You get six guesses.').toLowerCase;
+//   console.log('color[i]', color[i]);
+//   console.log('answers[i]', answers[i]);
+// }

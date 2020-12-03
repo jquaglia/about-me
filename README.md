@@ -16,7 +16,7 @@ I built a website with a guessing game built in. My guessing game asks you quest
 
 * [Relevant info on background image](https://www.codesdope.com/blog/article/fixed-background-scrolling-effect-using-css/)
 
-*[]()
+*[Relevant Info for Loops](https://stackoverflow.com/questions/47787313/javascript-creating-a-guess-the-word-game)
 
 ### Reflections and Comments
 
