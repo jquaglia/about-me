@@ -2,6 +2,8 @@
 
 var userName = prompt('What is your name?');
 // console.log('The user name is ' + userName + '!');
+var correctAnswers = 0;
+
 alert('Hello ' + userName + '! Get ready to play a guessing game!');
 
 // question one
@@ -10,6 +12,7 @@ var codeName = prompt('Is the maker of this website\'s name Jason?').toLowerCase
 
 if (codeName === 'yes' || codeName === 'y') {
   // console.log('The correct answer is yes. ' + userName + ' answered ' + codeName + '.')
+  correctAnswers++;
   alert('Ding! Ding! Ding! We have a winner!');
 }
 
@@ -23,6 +26,7 @@ if (homeTown === 'yes' || homeTown === 'y') {
   // DONE - if it works, comment out console.log, send alert to user
   // console.log('Yes I live in Seattle.' + userName + ' answered ' + homeTown);
   alert('That is Correct!');
+  correctAnswers++;
 } else {
   alert('Ooh, you got that one wrong!');
 }
@@ -35,6 +39,7 @@ var winterSport = prompt('Does Jason love to ski?').toLowerCase();
 if (winterSport === 'no' || winterSport === 'n') {
   // console.log('Jason likes to snowboard.' + userName + ' answered ' + winterSport);
   alert('Nice job, ' + userName + '. That\'s right! Jason likes to snowboard!');
+  correctAnswers++;
 } else {
   alert('Sorry, nice try ' + userName + '.');
 }
@@ -50,6 +55,7 @@ var favFood = prompt('Is Jason\'s favorite food tacos?').toLowerCase();
 if (favFood === 'no' || favFood === 'n') {
   // console.log('You are really good at this ' + userName + '! Jason\'s favorite food is all food!');
   alert('You are really good at this ' + userName + '! Jason\'s favorite food is all food!');
+  correctAnswers++;
 } else {
   alert('Close! Tacos are one his favorite foods!');
 }
@@ -61,6 +67,7 @@ var videoGame = prompt('Does Jason play video games?').toLowerCase();
 if (videoGame === 'yes' || videoGame === 'y') {
   // console.log('Right you are ' + userName + '. You\'ve done well at this game!');
   alert('Right you are ' + userName + '. You\'ve done well at this game!');
+  correctAnswers++;
 } else {
   alert('Wow, ' + userName + '. You need to learn more about Jason!');
 }
@@ -84,6 +91,7 @@ for (var i = 0; i < numberGuesses; i++){
   console.log(guessGame);
   if(guessGame === correctAnswer){
     alert(`Congratulations ${userName}! You guessed right!`);
+    correctAnswers++;
     break;
   } else if(correctAnswer > guessGame && i !== 3){
     alert('Your last guess was too low');
@@ -127,6 +135,7 @@ while (!answeredCorrectly && guessesMax > 0) {
   var color = prompt('What is one of my favorite colors? You have six guesses.');
   for (var n = 0; n < answers.length; n++) {
     if (color === answers[n]) {
+      correctAnswers++;
       alert(`${userName} is correct! You guessed one of these: ${answers.toString()}.`);
       answeredCorrectly = true;
       break;
@@ -135,6 +144,8 @@ while (!answeredCorrectly && guessesMax > 0) {
     alert('Sorry, wrong answer!');
   }
 }
+
+alert(`Thanks for playing my guessing game ${userName}, you got ${correctAnswers} answers correct!`);
 
 // while(color !== answers[j]){
 //   for(var j = 0; j < guessesNumber; j++){
