@@ -6,6 +6,10 @@ I built a website with a guessing game built in. My guessing game asks you quest
 
 ### Author: Jason Quaglia/Code 201d70
 
+#### Co-Authors
+
+Anthony Johnson - Pair programming. 12/2/20
+
 ### Links and Resources
 
 * [Relevant toLowerCase info](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
