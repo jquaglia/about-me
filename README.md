@@ -28,6 +28,8 @@ I built a website with a guessing game built in. My guessing game asks you quest
 
 * Loops are hard. It's easy to get completely lost in the brackets.
 
+* I wasn't sure on proper syntax for the logic i needed to finish a while loop. After seeing code review on 12/3 I used the syntax that was used in class to get working code.
+
 ### Collaborators
 
 * Anthony Hayward
