@@ -90,7 +90,7 @@ for (var i = 0; i < numberGuesses; i++){
   } else if(correctAnswer < guessGame && i !== 3){
     alert('Your last guess was too high');
   } else{
-    alert(`Sorry, ${userName}. You're out of guesses!`);
+    alert(`Sorry, ${userName}. You're out of guesses! The correct answer was 14!`);
   }
 }
 

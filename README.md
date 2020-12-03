@@ -16,6 +16,8 @@ I built a website with a guessing game built in. My guessing game asks you quest
 
 * [Relevant info on background image](https://www.codesdope.com/blog/article/fixed-background-scrolling-effect-using-css/)
 
+*[]()
+
 ### Reflections and Comments
 
 * I need to be more aware of time management and not let the black hole that is CSS take a hold of me.
@@ -23,6 +25,8 @@ I built a website with a guessing game built in. My guessing game asks you quest
 * Stack Exchange appears to be getting easier and easier to understand and I'm learning from the things that aren't even relevant.
 
 * I'm now reflecting upon the reflection. I thought the journal was going to be somewhat annoying but after all the technical stuff, it has been cathartic.
+
+* Loops are hard. It's easy to get completely lost in the brackets.
 
 ### Collaborators
 
