@@ -73,16 +73,6 @@ if (videoGame === 'yes' || videoGame === 'y') {
 }
 
 // question six
-// get user input/ prompt/ assign to variable
-// if statements.
-// if variable > correctAnswer - do one thing.
-// if variable < correctAnswer - do a different thing.
-// if correct (on first try) - do a thing
-// if correct (on last try) - do separate thing?
-// if incorrect answer do loop until greater than 4 (out of guesses)
-// if correct end logic
-
-
 var correctAnswer = 14;
 var numberGuesses = 4;
 
@@ -106,23 +96,6 @@ for (var i = 0; i < numberGuesses; i++){
 // add an array with multiple correct answers
 // var answers = ['blue', 'pink', 'red'];
 
-// var answers = ['purple', 'yellow', 'green', 'pink'];
-// var guessesMax = 6;
-// // var guessesCount = 0;
-
-// for( var j = 0; j < guessesMax; j++){
-//   var color = prompt('What is one of my favorite colors? You get six guesses.').toLowerCase;
-//   console.log(color);
-//   for (var n = 0; n < answers.length; n++){
-//     if (color === answers[n]){
-//       alert(`Congratulations ${userName}! You guessed one of these ${answers.toString()}`);
-//       break;
-//     } else if (color !== answers[j]){
-//       alert(`Try another color ${userName}!`);
-//     }
-//   }
-// }
-
 // // Loop 1 - Tells how many times to run
 // // Loop 2 - Loops through the array to check answers
 var answers = ['purple', 'green', 'yellow', 'peach'];
@@ -145,29 +118,6 @@ while (!answeredCorrectly && guessesMax > 0) {
   }
 }
 
+
+
 alert(`Thanks for playing my guessing game ${userName}, you got ${correctAnswers} answers correct!`);
-
-// while(color !== answers[j]){
-//   for(var j = 0; j < guessesNumber; j++){
-//     var color = prompt('What is one of my favorite colors? You get six guesses.').toLowerCase;
-//     console.log(color);
-//     if(color === answers){
-//       alert(`Congratulations ${userName}! You guessed one of ${answers.toString()}`);
-//     }
-//   }
-// }
-// for (var j = 0; j < guessesNumber; j++) {
-//   var color = prompt('What is one of my favorite colors? You get six guesses.').toLowerCase;
-//   console.log(color);
-//   if(color === answers[j]){
-//     alert(`Congratulations ${userName}! You guessed right!`);
-//   }
-// }
-
-// while (i < 6){
-//   i = 0;
-//   console.log(i);
-//   var color = prompt('What are my favorite colors? You get six guesses.').toLowerCase;
-//   console.log('color[i]', color[i]);
-//   console.log('answers[i]', answers[i]);
-// }
