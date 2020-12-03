@@ -83,7 +83,7 @@ for (var i = 0; i < numberGuesses; i++){
   var guessGame = parseInt(prompt('Guess a number from 1-20. You have four chances!'));
   console.log(guessGame);
   if(guessGame === correctAnswer){
-    alert(`Congratulations ${userName}! You guessed right on the first try!`);
+    alert(`Congratulations ${userName}! You guessed right!`);
     break;
   } else if(correctAnswer > guessGame && i !== 3){
     alert('Your last guess was too low');
@@ -94,16 +94,9 @@ for (var i = 0; i < numberGuesses; i++){
   }
 }
 
-
-
-
-
-
-
-
-
-
 // question seven
 // add an array with multiple correct answers
 // var answers = ['blue', 'pink', 'red'];
+
+
 
