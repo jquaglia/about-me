@@ -98,14 +98,9 @@ alert('Hello ' + userName + '! Get ready to play a guessing game!');
 // add an array with multiple correct answers
 // var answers = ['blue', 'pink', 'red'];
 
-
-
 // var answers = ['purple', 'yellow', 'green', 'pink'];
 // var guessesMax = 6;
 // // var guessesCount = 0;
-
-// // Loop 1 - Tells how many times to run
-// // Loop 2 - Loops through the array to check answers
 
 // for( var j = 0; j < guessesMax; j++){
 //   var color = prompt('What is one of my favorite colors? You get six guesses.').toLowerCase;
@@ -120,6 +115,8 @@ alert('Hello ' + userName + '! Get ready to play a guessing game!');
 //   }
 // }
 
+// // Loop 1 - Tells how many times to run
+// // Loop 2 - Loops through the array to check answers
 var answers = ['purple', 'green', 'yellow', 'peach'];
 var guessesMax = 6;
 var answeredCorrectly = false;
@@ -138,9 +135,6 @@ while (!answeredCorrectly && guessesMax > 0) {
     alert('Sorry, wrong answer!');
   }
 }
-
-
-
 
 // while(color !== answers[j]){
 //   for(var j = 0; j < guessesNumber; j++){
