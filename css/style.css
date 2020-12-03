@@ -1,5 +1,7 @@
+/* style.css */
+
 body {
-  background-image: url(img/redpanda.jpg);
+  background-image: url(../img/redpanda.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #412010;
@@ -35,8 +37,22 @@ h2 {
   text-align: center;
 }
 
-p {
+h3 {
   text-align: center;
+}
+
+p {
+  text-align: justify;
+  
+}
+
+ol {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: decimal;
+  display: inline-block;
+  list-style-position: inside;
+  border: solid medium black;
 }
 
 .first-paragraph {
@@ -46,6 +62,7 @@ p {
 
 .second-paragraph {
   color: #035555;
+  margin: 15px;
 }
 
 footer {

@@ -8,7 +8,7 @@ alert('Hello ' + userName + '! Get ready to play a guessing game!');
 var codeName = prompt('Is the maker of this website\'s name Jason?').toLowerCase();
 // console.log(codeName);
 
-if(codeName === 'yes' || codeName === 'y'){
+if (codeName === 'yes' || codeName === 'y') {
   // console.log('The correct answer is yes. ' + userName + ' answered ' + codeName + '.')
   alert('Ding! Ding! Ding! We have a winner!');
 }
@@ -18,12 +18,12 @@ if(codeName === 'yes' || codeName === 'y'){
 var homeTown = prompt('Does Jason live in Seattle?').toLowerCase();
 // console.log(homeTown);
 
-if(homeTown === 'yes' || homeTown === 'y'){
+if (homeTown === 'yes' || homeTown === 'y') {
   // DONE - console.log the answer IF IT IS CORRECT in a string concatenation
   // DONE - if it works, comment out console.log, send alert to user
   // console.log('Yes I live in Seattle.' + userName + ' answered ' + homeTown);
   alert('That is Correct!');
-} else{
+} else {
   alert('Ooh, you got that one wrong!');
 }
 
@@ -32,10 +32,10 @@ if(homeTown === 'yes' || homeTown === 'y'){
 var winterSport = prompt('Does Jason love to ski?').toLowerCase();
 // console.log(winterSport);
 
-if(winterSport === 'no' || winterSport === 'n'){
+if (winterSport === 'no' || winterSport === 'n') {
   // console.log('Jason likes to snowboard.' + userName + ' answered ' + winterSport);
   alert('Nice job, ' + userName + '. That\'s right! Jason likes to snowboard!');
-} else{
+} else {
   alert('Sorry, nice try ' + userName + '.');
 }
 // DONE - console.log the answer in a string concatenation IF IT IS CORRECT
@@ -47,10 +47,10 @@ if(winterSport === 'no' || winterSport === 'n'){
 var favFood = prompt('Is Jason\'s favorite food tacos?').toLowerCase();
 // console.log(favFood);
 
-if(favFood === 'no' || favFood === 'n'){
+if (favFood === 'no' || favFood === 'n') {
   // console.log('You are really good at this ' + userName + '! Jason\'s favorite food is all food!');
   alert('You are really good at this ' + userName + '! Jason\'s favorite food is all food!');
-} else{
+} else {
   alert('Close! Tacos are one his favorite foods!');
 }
 
@@ -58,10 +58,10 @@ if(favFood === 'no' || favFood === 'n'){
 var videoGame = prompt('Does Jason play video games?').toLowerCase();
 //console.log(videoGame);
 
-if(videoGame === 'yes' || videoGame === 'y'){
+if (videoGame === 'yes' || videoGame === 'y') {
   // console.log('Right you are ' + userName + '. You\'ve done well at this game!');
   alert('Right you are ' + userName + '. You\'ve done well at this game!');
-} else{
+} else {
   alert('Wow, ' + userName + '. You need to learn more about Jason!');
 }
 
@@ -74,6 +74,34 @@ if(videoGame === 'yes' || videoGame === 'y'){
 // if correct (on last try) - do separate thing?
 // if incorrect answer do loop until greater than 4 (out of guesses)
 // if correct end logic
+
+
+var correctAnswer = 14;
+var numberGuesses = 4;
+
+for (var i = 0; i < numberGuesses; i++){
+  var guessGame = parseInt(prompt('Guess a number from 1-20. You have four chances!'));
+  console.log(guessGame);
+  if(guessGame === correctAnswer){
+    alert(`Congratulations ${userName}! You guessed right on the first try!`);
+    break;
+  } else if(correctAnswer > guessGame && i !== 3){
+    alert('Your last guess was too low');
+  } else if(correctAnswer < guessGame && i !== 3){
+    alert('Your last guess was too high');
+  } else{
+    alert(`Sorry, ${userName}. You're out of guesses!`);
+  }
+}
+
+
+
+
+
+
+
+
+
 
 // question seven
 // add an array with multiple correct answers
