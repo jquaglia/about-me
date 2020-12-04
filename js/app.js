@@ -121,13 +121,13 @@ console.log(questionSix());
 // // Loop 2 - Loops through the array to check answers
 function questionSeven() {
   var answers = ['purple', 'green', 'yellow', 'peach'];
-  var guessesMax = 6;
+  var guessesMax = 7;
   var answeredCorrectly = false;
   console.log(answers);
 
-  while (!answeredCorrectly && guessesMax > 0) {
+  while (!answeredCorrectly && guessesMax > 1) {
     guessesMax--;
-    var color = prompt('What is one of my favorite colors? You have six guesses.');
+    var color = prompt(`What is one of my favorite colors? You have ${guessesMax} guesses.`);
     for (var n = 0; n < answers.length; n++) {
       if (color === answers[n]) {
         correctAnswers++;
