@@ -17,7 +17,7 @@ function questionOne() {
   }
 }
 
-console.log(questionOne());
+// console.log(questionOne());
 
 // question two
 // DONE - ask question y/n -normalize case
@@ -36,7 +36,7 @@ function questionTwo() {
   }
 }
 
-console.log(questionTwo());
+// console.log(questionTwo());
 
 // question three
 // DONE - ask question with yes or no answer, normalize case
@@ -52,7 +52,9 @@ function questionThree() {
     alert('Sorry, nice try ' + userName + '.');
   }
 }
-console.log(questionThree());
+
+// console.log(questionThree());
+
 // DONE - console.log the answer in a string concatenation IF IT IS CORRECT
 // DONE - if it works, comment out console.log, send alert to user
 
@@ -72,7 +74,8 @@ function questionFour() {
   }
 
 }
-console.log(questionFour());
+
+// console.log(questionFour());
 
 // question five
 function questionFive() {
@@ -88,7 +91,8 @@ function questionFive() {
   }
 
 }
-console.log(questionFive());
+
+// console.log(questionFive());
 
 // question six
 function questionSix() {
@@ -111,7 +115,8 @@ function questionSix() {
     }
   }
 }
-console.log(questionSix());
+
+// console.log(questionSix());
 
 // question seven
 // add an array with multiple correct answers
@@ -141,7 +146,16 @@ function questionSeven() {
   }
 
 }
-console.log(questionSeven());
 
+// console.log(questionSeven());
+
+// Executables
+questionOne();
+questionTwo();
+questionThree();
+questionFour();
+questionFive();
+questionSix();
+questionSeven();
 
 alert(`Thanks for playing my guessing game ${userName}, you got ${correctAnswers} answers correct!`);
