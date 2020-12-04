@@ -136,13 +136,15 @@ function questionSeven() {
     for (var n = 0; n < answers.length; n++) {
       if (color === answers[n]) {
         correctAnswers++;
-        alert(`${userName} is correct! You guessed one of these: ${answers.toString()}.`);
+        alert(`${userName} is correct! You guessed one of these: ${answers}.`);
         answeredCorrectly = true;
         break;
       }
     } if (!answeredCorrectly) {
       alert('Sorry, wrong answer!');
     }
+  } if (!answeredCorrectly && guessesMax === 1){
+    alert(`Sorry you didn't guess any of these : ${answers}`);
   }
 
 }
