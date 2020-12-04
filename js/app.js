@@ -149,6 +149,10 @@ function questionSeven() {
 
 // console.log(questionSeven());
 
+function alertEnd(){
+  alert(`Thanks for playing my guessing game ${userName}, you got ${correctAnswers} answers correct!`);
+}
+
 // Executables
 questionOne();
 questionTwo();
@@ -157,5 +161,4 @@ questionFour();
 questionFive();
 questionSix();
 questionSeven();
-
-alert(`Thanks for playing my guessing game ${userName}, you got ${correctAnswers} answers correct!`);
+alertEnd();
