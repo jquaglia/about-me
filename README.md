@@ -1,4 +1,4 @@
-# LAB - 3
+# LAB - 4
 
 ## About Me
 
@@ -34,6 +34,8 @@ Anthony Johnson - Pair programming. 12/2/20
 
 * I wasn't sure on proper syntax for the logic i needed to finish a while loop. After seeing code review on 12/3 I used the syntax that was used in class to get working code.
 
+* Surprisingly lab 04 went well. We were able to pair-program and get the functions added in. We also ended up doing the pull request and merge without a hitch. I thought it was going to take us longer but it ended up going very smooth the 2nd time around as we had already done it on the first file.
+
 ### Collaborators
 
 * Anthony Hayward
@@ -41,3 +43,5 @@ Anthony Johnson - Pair programming. 12/2/20
 * Carly Dekock
 
 * Glenn Clark
+
+* Anthony Johnson
